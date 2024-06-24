@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <title>
+        Minha primeira pagina
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel=" stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="Lego Logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1024px-LEGO_logo.svg.png" />
+    </div>
+    <img id="banner" src="banner.jpg" alt="Banner" height="240">
+    <h1>
+        Sobre Audax
+    </h1>
+
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                You'll solve coding assignments on building a web page from a mockup, creating a responsive mobile-first
+                website, and crafting a scientific calculator. For the final project, you will build your personal
+                portfolio
+                website and deploy it to the cloud!
+            </p>
+            <p>
+                Também fazemos seu produto do jeitinho que você quiser.
+            <ol>
+                <li>
+                    <a href="https://www.audaxjoalheria.com.br/">
+                        Jóias feito a mão
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://www.audaxjoalheria.com.br/products/pingente-prata-quadrado-8mm-zirconia-cristal">
+
+                        Qualidade e respeito com o cliente
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="meeting.jpg" alt="Time">
+        </div>
+    </div>
+
+
+
+    <h2>Oportunidades de Emprego</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Vaga</th>
+                <th colspan="2">Localização</th>
+                <th rowspan="2">Salário</th>
+                <th rowspan="2">Data</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>Cidade</th>
+                <th>Estado</th>
+
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Analista de Suporte</td>
+                <td>São Paulo</td>
+                <td>São Paulo</td>
+                <td>R$3.500</td>
+                <td>Março, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Front End Dev</td>
+                <td>Uberlândia</td>
+                <td>Minas Gerais</td>
+                <td>R$5.200</td>
+                <td>Março, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Back End Dev</td>
+                <td>Perdões</td>
+                <td>Minas Gerais</td>
+                <td>R$7.350</td>
+                <Td>Março, 2024</Td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>UX Designer</td>
+                <td>Araguari</td>
+                <td>Minas Gerais</td>
+                <td>R$4.900</td>
+                <td>Março, 2024</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div id="application">
+        <h2>Aplique aqui</h2>
+
+        <form id="application-form">
+            <div class="form-group">
+                <label for="name">Nome Completo</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="Felipe Cardoso">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email" required placeholder="exemplo@gmail.com">
+
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Celular</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="349xxxxxxxx">
+
+            </div>
+            <div class="form-group">
+                <label for="dob">Data de Nascimento</label><br>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div>
+                <label for="position">Aplicar para</label><br>
+                <option value="">Selecionar posição</option>
+                <select id="position" name="Position Apllied" required>
+                    <option value="analista de supote">Analista de Suporte</option>
+                    <option value="frontend developer">Front End DEV</option>
+                    <option valeu="backend developer">Back End DEV</option>
+                    <option value="ux designer">UX Designer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Baixar Arquivo</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Carta de Apresentação"></label><br>
+                <textarea id="coverletter" name="coverletter" rows="5" required placeholder="Explique porque você seria ideal para a vaga"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    Eu concordo com os termos e serviços
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Aplicar">
+            </div>
+    </div>
+
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://www.audaxjoalheria.com.br/products/corrente-veneziana-em-prata-925-0-8mm-50cm"
+                    target="_blank">
+
+                    Cursos
+                </a>
+
+            </li>
+            <li>
+                <a href="https://www.audaxjoalheria.com.br/products/corrente-grumet-em-prata-925-60cm?pr_prod_strat=collection_fallback&pr_rec_id=54b071f58&pr_rec_pid=8558949171420&pr_ref_pid=8558948778204&pr_seq=uniform"
+                    target="_blank">
+                    Programas
+                </a>
+            </li>
+            <li>
+                <a href="https://www.audaxjoalheria.com.br/products/corrente-veneziana-em-prata-925-0-8mm-50cm?pr_prod_strat=collection_fallback&pr_rec_id=d7eb4d406&pr_rec_pid=8558948778204&pr_ref_pid=8558949171420&pr_seq=uniform"
+                    target="_blank">
+                    Youtube
+                </a>
+            </li>
+        </ul>
+        <span class="copyright">©2024, Audax</span>
+    </div>
+
+
+</body>
+
+</html>
